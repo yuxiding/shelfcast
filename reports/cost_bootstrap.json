@@ -1,0 +1,13 @@
+{
+  "baseline": "mean4_tuned",
+  "candidate": "quantile_80",
+  "relative_cost_reduction": 0.043765056608208064,
+  "bootstrap_95_percentile_interval": [
+    -0.01701049503240885,
+    0.11370790681255931
+  ],
+  "draws": 2000,
+  "block_length_weeks": 3,
+  "test_weeks": 13,
+  "interpretation": "Descriptive paired moving-block bootstrap; 13 weeks do not establish generalization to other seasons or retailers."
+}

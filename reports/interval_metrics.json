@@ -1,0 +1,17 @@
+{
+  "nominal_coverage": 0.8,
+  "raw": {
+    "coverage": 0.7892307692307692,
+    "mean_width": 642.6307714928898,
+    "below_lower": 0.11692307692307692,
+    "above_upper": 0.09384615384615384
+  },
+  "calibrated": {
+    "coverage": 0.82,
+    "mean_width": 660.5225026274129,
+    "below_lower": 0.0876923076923077,
+    "above_upper": 0.09230769230769231
+  },
+  "q80_pinball_loss": 95.13542909655199,
+  "q80_empirical_coverage": 0.8138461538461539
+}

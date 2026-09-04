@@ -1,0 +1,10 @@
+-e .[dev]
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+joblib==1.5.3
+openpyxl==3.1.5
+threadpoolctl==3.6.0
+fastapi==0.116.1
+uvicorn==0.35.0

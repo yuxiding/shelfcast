@@ -1,0 +1,282 @@
+{
+  "selected_point_model": "log_7",
+  "selected_ml_model": "log_7",
+  "point_candidates": [
+    {
+      "model": "last_week",
+      "validation_wape": 0.7199052661797072
+    },
+    {
+      "model": "mean_4",
+      "validation_wape": 0.6694144524895538
+    },
+    {
+      "model": "annual_52",
+      "validation_wape": 1.0993110267615067
+    },
+    {
+      "model": "poisson_7",
+      "validation_wape": 0.6521832424929785
+    },
+    {
+      "model": "poisson_15",
+      "validation_wape": 0.6724754524729832
+    },
+    {
+      "model": "log_7",
+      "validation_wape": 0.5802738210478052
+    },
+    {
+      "model": "log_15",
+      "validation_wape": 0.5965635004879517
+    }
+  ],
+  "quantile_candidates": [
+    {
+      "max_leaf_nodes": 7,
+      "validation_mean_pinball_loss": 60.96163071705769
+    },
+    {
+      "max_leaf_nodes": 15,
+      "validation_mean_pinball_loss": 62.26916275503031
+    }
+  ],
+  "quantile_leaves": 7,
+  "fit_end_exclusive": "2011-07-04",
+  "calibration_end": "2011-08-29",
+  "sklearn_version": "1.8.0",
+  "calibration_rows": 450,
+  "interval_adjustment": 0.029010825754430838,
+  "nominal_interval_coverage": 0.8,
+  "interval_note": "Empirical calibration only: temporal and cross-product dependence prevent an exchangeability guarantee.",
+  "panel_sha256": "ed59498aa8c70f789b7910be2cc5714d34c879bfbf4ea29324e7e59b0e55dc49",
+  "source_sha256": "9de7154702753876fc28b6f7ffa7895e2059c5b8739c19b60ec971e0f85ed0de",
+  "product_names": {
+    "15036": "ASSORTED COLOURS SILK FAN",
+    "16014": "SMALL CHINESE STYLE SCISSOR",
+    "17003": "BROCADE RING PURSE ",
+    "20725": "LUNCH BAG RED SPOTTY",
+    "20727": "LUNCH BAG  BLACK SKULL.",
+    "21080": "SET/20 RED SPOTTY PAPER NAPKINS ",
+    "21212": "PACK OF 72 RETRO SPOT CAKE CASES",
+    "21213": "PACK OF 72 SKULL CAKE CASES",
+    "21232": "STRAWBERRY CERAMIC TRINKET BOX",
+    "21498": "RED SPOTS  WRAP ",
+    "21915": "RED  HARMONICA IN BOX ",
+    "21928": "JUMBO BAG SCANDINAVIAN PAISLEY",
+    "21929": "JUMBO BAG PINK VINTAGE PAISLEY",
+    "21931": "JUMBO STORAGE BAG SUKI",
+    "21975": "PACK OF 60 DINOSAUR CAKE CASES",
+    "21977": "PACK OF 60 PINK PAISLEY CAKE CASES",
+    "21980": "PACK OF 12 RED SPOTTY TISSUES ",
+    "21981": "PACK OF 12 WOODLAND TISSUES ",
+    "21982": "PACK OF 12 SUKI TISSUES ",
+    "21984": "PACK OF 12 PINK PAISLEY TISSUES ",
+    "21985": "PACK OF 12 HEARTS DESIGN TISSUES ",
+    "22086": "PAPER CHAIN KIT 50'S CHRISTMAS ",
+    "22151": "PLACE SETTING WHITE HEART",
+    "22178": "VICTORIAN GLASS HANGING T-LIGHT",
+    "22197": "SMALL POPCORN HOLDER",
+    "22355": "CHARLOTTE BAG SUKI DESIGN",
+    "22386": "JUMBO BAG PINK WITH WHITE SPOTS",
+    "22411": "JUMBO SHOPPER VINTAGE RED PAISLEY",
+    "22423": "REGENCY CAKESTAND 3 TIER",
+    "22469": "HEART OF WICKER SMALL",
+    "22492": "MINI PAINT SET VINTAGE ",
+    "22616": "PACK OF 12 LONDON TISSUES ",
+    "71459": "HANGING JAM JAR T-LIGHT HOLDER",
+    "72741": "GRAND CHOCOLATECANDLE",
+    "84077": "WORLD WAR 2 GLIDERS ASSTD DESIGNS",
+    "84212": "ASSORTED FLOWER COLOUR \"LEIS\"",
+    "84270": "ASSTD DESIGN BUBBLE GUM RING",
+    "84347": "ROTATING SILVER ANGELS T-LIGHT HLDR",
+    "84568": "GIRLS ALPHABET IRON ON PATCHES ",
+    "84598": "BOYS ALPHABET IRON ON PATCHES",
+    "84755": "COLOUR GLASS T-LIGHT HOLDER HANGING",
+    "84879": "ASSORTED COLOUR BIRD ORNAMENT",
+    "84946": "ANTIQUE SILVER TEA GLASS ETCHED",
+    "84970S": "HANGING HEART ZINC T-LIGHT HOLDER",
+    "84991": "60 TEATIME FAIRY CAKE CASES",
+    "84992": "72 SWEETHEART FAIRY CAKE CASES",
+    "85099B": "JUMBO BAG RED RETROSPOT",
+    "85099C": "JUMBO  BAG BAROQUE BLACK WHITE",
+    "85099F": "JUMBO BAG STRAWBERRY",
+    "85123A": "WHITE HANGING HEART T-LIGHT HOLDER"
+  },
+  "sample_sku": "84992",
+  "product_training_mean": {
+    "15036": 438.31081081081084,
+    "16014": 240.7027027027027,
+    "17003": 799.4864864864865,
+    "20725": 308.8918918918919,
+    "20727": 224.94594594594594,
+    "21080": 268.1216216216216,
+    "21212": 725.2027027027027,
+    "21213": 349.63513513513516,
+    "21232": 336.7027027027027,
+    "21498": 234.8108108108108,
+    "21915": 257.5810810810811,
+    "21928": 223.2972972972973,
+    "21929": 232.32432432432432,
+    "21931": 254.52702702702703,
+    "21975": 237.54054054054055,
+    "21977": 478.7837837837838,
+    "21980": 274.2432432432432,
+    "21981": 225.45945945945945,
+    "21982": 383.8378378378378,
+    "21984": 235.2027027027027,
+    "21985": 236.47297297297297,
+    "22086": 203.25675675675674,
+    "22151": 250.8918918918919,
+    "22178": 368.02702702702703,
+    "22197": 626.2297297297297,
+    "22355": 256.86486486486484,
+    "22386": 331.7837837837838,
+    "22411": 250.43243243243242,
+    "22423": 242.97297297297297,
+    "22469": 267.5810810810811,
+    "22492": 248.93243243243242,
+    "22616": 372.3918918918919,
+    "71459": 322.6756756756757,
+    "72741": 186.33783783783784,
+    "84077": 976.3783783783783,
+    "84212": 228.74324324324326,
+    "84270": 257.2162162162162,
+    "84347": 300.3783783783784,
+    "84568": 338.3918918918919,
+    "84598": 222.8783783783784,
+    "84755": 410.5135135135135,
+    "84879": 659.2162162162163,
+    "84946": 319.3783783783784,
+    "84970S": 256.77027027027026,
+    "84991": 428.9189189189189,
+    "84992": 247.47297297297297,
+    "85099B": 792.7162162162163,
+    "85099C": 285.3243243243243,
+    "85099F": 348.5405405405405,
+    "85123A": 850.0
+  },
+  "mean4_stock_multiplier": 1.25,
+  "point_stock_multiplier": 1.5,
+  "mean4_multiplier_search": [
+    {
+      "multiplier": 0.75,
+      "validation_cost": 228146.0
+    },
+    {
+      "multiplier": 1.0,
+      "validation_cost": 197894.0
+    },
+    {
+      "multiplier": 1.25,
+      "validation_cost": 186691.0
+    },
+    {
+      "multiplier": 1.5,
+      "validation_cost": 193567.0
+    },
+    {
+      "multiplier": 1.75,
+      "validation_cost": 209520.0
+    },
+    {
+      "multiplier": 2.0,
+      "validation_cost": 230909.0
+    },
+    {
+      "multiplier": 2.5,
+      "validation_cost": 283684.0
+    },
+    {
+      "multiplier": 3.0,
+      "validation_cost": 341473.0
+    }
+  ],
+  "point_multiplier_search": [
+    {
+      "multiplier": 0.75,
+      "validation_cost": 267140.0
+    },
+    {
+      "multiplier": 1.0,
+      "validation_cost": 227700.0
+    },
+    {
+      "multiplier": 1.25,
+      "validation_cost": 203272.0
+    },
+    {
+      "multiplier": 1.5,
+      "validation_cost": 193980.0
+    },
+    {
+      "multiplier": 1.75,
+      "validation_cost": 194509.0
+    },
+    {
+      "multiplier": 2.0,
+      "validation_cost": 200676.0
+    },
+    {
+      "multiplier": 2.5,
+      "validation_cost": 223294.0
+    },
+    {
+      "multiplier": 3.0,
+      "validation_cost": 254830.0
+    }
+  ],
+  "seed": 42,
+  "python_version": "3.12.13",
+  "dependency_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "fastapi": "0.116.1",
+    "openpyxl": "3.1.5"
+  },
+  "splits": {
+    "train": {
+      "start": "2010-02-01",
+      "end": "2011-04-25",
+      "weeks": 65,
+      "rows": 3250
+    },
+    "validation": {
+      "start": "2011-05-02",
+      "end": "2011-06-27",
+      "weeks": 9,
+      "rows": 450
+    },
+    "calibration": {
+      "start": "2011-07-04",
+      "end": "2011-08-29",
+      "weeks": 9,
+      "rows": 450
+    },
+    "test": {
+      "start": "2011-09-05",
+      "end": "2011-11-28",
+      "weeks": 13,
+      "rows": 650
+    }
+  },
+  "quantile_settings": {
+    "quantiles": [
+      0.1,
+      0.5,
+      0.8,
+      0.9
+    ],
+    "max_iter": 220,
+    "learning_rate": 0.06,
+    "early_stopping": false,
+    "min_samples_leaf": 20,
+    "l2_regularization": 2
+  },
+  "source_data_end": "2011-11-28",
+  "model_id": "a784cc857c7286e0",
+  "runtime_seconds": 4.5995443949996115
+}
